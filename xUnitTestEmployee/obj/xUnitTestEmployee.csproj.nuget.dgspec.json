@@ -1,0 +1,102 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\AspTask\\xUnitTestEmployee\\xUnitTestEmployee.csproj": {}
+  },
+  "projects": {
+    "D:\\AspTask\\EmployeeDetailsAPI\\EmployeeDetailsAPI.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\AspTask\\EmployeeDetailsAPI\\EmployeeDetailsAPI.csproj",
+        "projectName": "EmployeeDetailsAPI",
+        "projectPath": "D:\\AspTask\\EmployeeDetailsAPI\\EmployeeDetailsAPI.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\AspTask\\xUnitTestEmployee\\xUnitTestEmployee.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\AspTask\\xUnitTestEmployee\\xUnitTestEmployee.csproj",
+        "projectName": "xUnitTestEmployee",
+        "projectPath": "D:\\AspTask\\xUnitTestEmployee\\xUnitTestEmployee.csproj",
+        "packagesPath": "C:\\Users\\Rajashekar.chenikala\\.nuget\\packages\\",
+        "outputPath": "D:\\AspTask\\xUnitTestEmployee\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Rajashekar.chenikala\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\AspTask\\EmployeeDetailsAPI\\EmployeeDetailsAPI.csproj": {
+                "projectPath": "D:\\AspTask\\EmployeeDetailsAPI\\EmployeeDetailsAPI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
