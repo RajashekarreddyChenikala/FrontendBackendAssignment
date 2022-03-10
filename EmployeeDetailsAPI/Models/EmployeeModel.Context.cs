@@ -13,10 +13,10 @@ namespace EmployeeDetailsAPI.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DbEntities : DbContext
+    public partial class EmpDbEntities : DbContext
     {
-        public DbEntities()
-            : base("name=DbEntities")
+        public EmpDbEntities()
+            : base("name=EmpDbEntities")
         {
         }
     

@@ -10,7 +10,7 @@ namespace EmployeeDetailsAPI.Controllers
 {
     public class EmployeeController : ApiController
     {
-        DbEntities db = new DbEntities();
+        EmpDbEntities db = new EmpDbEntities();
         [HttpGet]
         public IEnumerable<Employee> Get()
         {

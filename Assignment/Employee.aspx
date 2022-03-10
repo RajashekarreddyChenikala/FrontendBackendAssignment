@@ -6,56 +6,6 @@
 <head runat="server">
     <title></title>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>  
-      
-    <script type="text/javascript">  
-
-
-        //$(document).ready (function() {
-        //    $("#GridView1_LinkButton1_0").on("click", function () {
-               
-        //            var id = $(this).closest("tr").find("td:eq(2)").text();
-        //            var name = $(this).closest("tr").find("td:eq(3)").text();
-        //            var dob = $(this).closest("tr").find("td:eq(4)").text();
-        //            var skills = $(this).closest("tr").find("td:eq(5)").text();
-        //            var address = $(this).closest("tr").find("td:eq(6)").text();
-        //            var role = $(this).closest("tr").find("td:eq(7)").text();
-        //        var salary = $(this).closest("tr").find("td:eq(8)").text();
-               
-        //        var obj = {
-                    
-        //            id: 3,
-        //            name: 'Raja',
-        //            dob: '18-08-2022',
-        //            skills: 'Dotnet',
-        //            address: 'Hyderabad',
-        //            role: 'Software Engineer',
-        //            salary: '30000'
-        //        };
-        //        var dataString = 'id:' + id + "\n" + 'name:' + name + "\n" + 'dob:' + dob + "\n" + 'skills:' + skills + "\n" + 'address:' + address + "\n" + 'role:' + role + "\n" + 'salary:' + salary;
-        //        //alert(JSON.stringify(obj));
-        //            $.ajax({
-        //                url: 'http://localhost:60177/api/Employee',
-        //                type: 'POST',
-        //                dataType: 'json',
-        //                //contentType: "application/json",
-        //                data: JSON.stringify(obj),
-                       
-                       
-        //                success: function (response) {
-
-        //                    alert(response);
-
-        //                },
-
-        //                error: function () {
-        //                    alert('Failed');
-        //                }
-        //            });               
-        //    });
-
-        //});
-
-    </script>  
     <style type="text/css">
         .auto-style1 {
             width: 100%;

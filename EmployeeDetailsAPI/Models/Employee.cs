@@ -16,10 +16,11 @@ namespace EmployeeDetailsAPI.Models
     {
         public int id { get; set; }
         public string name { get; set; }
-        public Nullable<DateTime> dob { get; set; }
+        public Nullable<System.DateTime> dob { get; set; }
         public string skills { get; set; }
         public string address { get; set; }
         public string role { get; set; }
         public Nullable<decimal> salary { get; set; }
+        public string statuses { get; set; }
     }
 }
